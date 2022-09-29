@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>index</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js" defer></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" defer></script>
+  <link rel="stylesheet" type="text/css" href="src/css/stylesheet.css">
+</head>
+
+<body>
+  <!--menue bar with nav -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <a class="navbar-brand" href="#">Home</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+      aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse form-inline my-2 my-lg-0" id="navbarsExampleDefault">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+        <li class="nav-item"><a class="nav-link" href="#workexperience">Work Experience</a></li>
+        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+        <li class="nav-item"><a class="nav-link" href="#interests">Interests</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact_me">Contact Me</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <picture class="picture">
+    <source media="(max-width:410px)" srcset="..\src\images/color3.jpg">
+    <source media="(max-width:946px)" srcset="..\src\images/color2.jpg">
+    <img src="..\src\images/color1.jpg" alt="color">
+  </picture>
+
+  <!--top with image auto-->
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="display-2 mt-2">Jana Smit</h1>
+      <p class="lead">I am a highly motivated person, reliable and confident in the things I do.</p>
+      <img src="..\src\images\headshot.jpg" alt="headshot" id="headshot" class="imgHeadshot">
+    </div>
+  </div>
+
+  <div class="container pt-2">
+    <div class="row">
+      <article class="col-sm-12 ">
+        <div class="info">
+          <p>
+          <ol class="list-unstyled px-sm-5 ml-2">
+            <h2 class="pt-3" id="education">Education</h2>
+            <h5 class="mt-2">Qualifications</h5>
+            <li>Matric</li>
+            <li>Taopix frontend Photobook Software <a href="https://taopix.com/" target="_blank">Taopix</a></li>
+            <li>CodeSpace - Intro to Web <a href="https://www.codecademy.com/" target="_blank">CodeSpace Academy</a>
+            <li>CodeSpace - Web Design <a href="https://www.codecademy.com/" target="_blank">CodeSpace Academy</a>
+            <li>Udemy - How to become a Shopify expert <a
+                href="https://www.udemy.com/course/make-money-become-a-shopify-expert-from-zero-to-hero/"
+                target="_blank">Udemy</a>
+            </li>
+            <li>Mphoto frontend Photobook Software</li>
+            <h5 class="mt-2">Courses</h5>
+            <li>Retail Management Training Group – The Friedman Group</li>
+            <li>Management Training & Development course – Jennings & Associates</li>
+            <li>Interpersonal skills, sales training, motivational speakers, team building</li>
+            <li>Leading for results – Jennings & Associates</li>
+          </ol>
+          </p>
+        </div>
+      </article>
+    </div>
+  </div>
+  <br>
+  <!--Carousels-->
+  <div id="carouselExampleIndicators" class="carousel slide bg-dark" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active" id="workexperience">
+        <p>
+        <ul class="job list-unstyled">
+          <h2 class="py-2">Q Photo</h2>
+          <li> 1997 – 2008</li>
+          <li> Store manager</li>
+          <li> Project Manager</li>
+          <li> Operations vs sales</li>
+          <li> Store planning and display</li>
+          <li> Recruiting of staff & training</li>
+          <li> Managing targets</li>
+          <li> E6 Developing</li>
+          <li> B&W Film Developing</li>
+
+        </ul>
+        </p>
+      </div>
+      <div class="carousel-item">
+        <p>
+        <ul class="job list-unstyled">
+          <h2 class="py-2">Remata - Photo2Print</h2>
+          <li> 2008 – 2022</li>
+          <li> Developing frontend Photobook Software</li>
+          <li> Taopix Software</li>
+          <li> Implementing systems</li>
+          <li> Customer service</li>
+          <li> Marketing</li>
+          <li> Managing Website Changes</li>
+          <li> Stock controller</li>
+          <li> Photobooks production</li>
+          <li> Product & Software Manager</li>
+        </ul>
+        </p>
+      </div>
+      <div class="carousel-item">
+        <p>
+        <ul class="job list-unstyled">
+          <h2 class="py-2">Fujifilm SA</h2>
+          <li> Present</li>
+          <li> Developing frontend Photobook Software</li>
+          <li> Taopix Software</li>
+          <li> Photobooks</li>
+          <li> Manage Systems and Software</li>
+        </ul>
+        </p>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators " role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+  <div class="container pt-3">
+    <div class="row">
+      <article class="col-sm-12">
+        <div class="info1">
+          <p>
+          <ul>
+            <h2 class="pt-3" id="skills">Skills</h2>
+            <li> Management skills</li>
+            <li> Time management</li>
+            <li> Implementing new systems</li>
+            <li> Problem solving</li>
+            <li> Photographic printing</li>
+            <li> Photoshop</li>
+            <li> Excel</li>
+            <li> Pastel</li>
+            <li> MS Word</li>
+            <li> Production manager</li>
+            <li> Customer service manager</li>
+            <li> Marketing manager and planning</li>
+            <li> Pricing structure</li>
+            <li> Stock controller</li>
+            <li> Impleminting Photobooks Software</li>
+            <li> InDesign</li>
+          </ul>
+          </p>
+        </div>
+      </article>
+    </div>
+    <br>
+    <!--Cards vertically Horiz row col col-->
+    <div class="card sm-3" style="max-width: 1200px;">
+      <div class="row no-gutters">
+        <div class="col-md-4 bg-dark">
+          <img src="..\src\images\outdoor.jpg" id=interests>
+        </div>
+        <div class="col-md-8 bg-light">
+          <div class="card-body">
+            <h5 class="card-title ">Interests</h5>
+            <p class="card-text">I love outdoor activities. Sports are part of my life, I have Korfball (SA., NTV) and
+              Athletics (NTV, OTV) colors. </p>
+            <p class="card-text"><small class="text-muted">Crossfit is part of my daily life.</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <!--form contac me-->
+    <div class="contactMe">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card-body">
+            <form action="" method="get" class="form" id=contact_me>
+              <div class="p pb-3"><strong>Feel free to contact me </strong></div>
+              <div class="row mb-3">
+                <div class="col">
+                  <div class="input-group"><span class="input-group-addon"><i class="fa fa-user-circle"></i></span>
+                    <input class="form-control" type="text" name="name" placeholder="Name" required="required">
+                  </div>
+                </div>
+              </div>
+              <div class="row mb-3">
+                <div class="col">
+                  <div class="input-group"><span class="input-group-addon"><i class="fa fa-file-text"></i></span>
+                    <input class="form-control" type="text" name="Subject" placeholder="Subject" required="required">
+                  </div>
+                </div>
+              </div>
+              <div class="row mb-3">
+                <div class="col">
+                  <div class="input-group"><span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+                    <input class="form-control" type="email" name="_replyto" placeholder="E-mail" required="required">
+                  </div>
+                </div>
+              </div>
+              <div class="row mb-3">
+                <div class="col">
+                  <div class="form-group">
+                    <textarea class="form-control" name="message" placeholder="Your Message"
+                      required="required"></textarea>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <button class="btn btn-primary" type="submit">Send Message</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card-body">
+            <p class="mb-0"><strong>Address </strong></p>
+            <p class="pb-2">Eastrand , South Africa</p>
+            <p class="mb-0"><strong>Phone</strong></p>
+            <p class="pb-2">071 568 5813</p>
+            <p class="mb-0"><strong>Email</strong></p>
+            <p>jana.smit4@gmail.com</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="text-center mt-5">
+        <ul>
+          <h2>Get In Touch</h2>
+          <a href="https://www.instagram.com/1420jana" target="_blank">
+            <img class="icons" src="..\src\images\instagram.png" alt="Instagram"></a>
+        </ul>
+      </div>
+    </footer>
+
+</body>
+
+</html>
